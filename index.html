@@ -1,61 +1,83 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Google</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="icon" href="https://www.google.com/favicon.ico" type="image/x-icon">
-    <!-- Utilisation de Font Awesome pour les icônes -->
-    <script src="https://kit.fontawesome.com/b99e675b6e.js" crossorigin="anonymous"></script>
 </head>
+
 <body>
+
     <header>
-        <nav>
+        <div class="header-left">
+            <a href="#">A propos</a>
+            <a href="#">Google Store</a>
+        </div>
+        <div class="header-right">
             <a href="#">Gmail</a>
             <a href="#">Images</a>
-            <a href="#" class="menu-icon" title="Applications Google"><i class="fas fa-th"></i></a>
+            <a href="#" title="Applications Google"></a>
+            <button>Menu</button>
             <button>Connexion</button>
-        </nav>
+        </div>
     </header>
 
-    <main>
-        <img src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png" alt="Google Logo" class="google-logo">
-        
-        <div class="search-container">
-            <i class="fas fa-search search-icon"></i>
-            <input type="text" class="search-bar" placeholder="Rechercher sur Google" title="Champ de recherche Google">
-            <i class="fas fa-microphone mic-icon"></i>
+    <div class="milieu">
+
+        <div class="logo">
+            <img src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png"
+                alt="Google Logo">
         </div>
 
-        <div class="button-container">
+        <div class="search-bar">
+            <img src="https://lh3.googleusercontent.com/vrouhgpauaIDsmxVZ7EDo2IJ4fzfATPYYoKbuDHwPPhvI2QIndMp7lZjjN0K3EiBHcE=w36"
+                alt="Google loupe">
+            <input type="text" title="Rechercher">
+            <div class="icons">
+                <img src="https://lh3.googleusercontent.com/ikLgZL8C7fy0yCfb0y6hcR4sBQ8EZIClqTe8NHzwQRTFnAj-VGFev625dHAs2H9hckg=h36"
+                    alt="Google micro">
+                <img src="https://lh3.googleusercontent.com/Dpg0NreJW8X9LXSeQw_lVbvq7ThRmWw6d1bU6ryIvFEcIANAIqryBd16wE7sZuNhoKEQ=w36-h36"
+                    alt="Google lens">
+            </div>
+        </div>
+
+        <div class="buttons">
             <button>Recherche Google</button>
             <button>J'ai de la chance</button>
         </div>
 
-        <div class="language-offer">
-            Google disponible en : <a href="#">English</a>
-        </div>
-    </main>
+    </div>
 
     <footer>
-        <div class="footer-location">
-            France
-        </div>
+
         <div class="footer-links">
-            <div class="footer-links-left">
-                <a href="#">À propos</a>
+            <div class="element">France</div>
+        </div>
+
+        <hr> <!-- ligne de séparation -->
+
+        <div class="footer-links">
+            <div>
                 <a href="#">Publicité</a>
                 <a href="#">Entreprise</a>
                 <a href="#">Comment fonctionne la recherche Google ?</a>
             </div>
-            <div class="footer-links-right">
+            <div>
+                <a href="#">Notre troisième décennie d'action pour le climat</a>
+            </div>
+            <div>
+                <a href="#">Signaler un contenu inapproprié</a>
+                <a href="#">Info consommateurs</a>
                 <a href="#">Confidentialité</a>
                 <a href="#">Conditions</a>
                 <a href="#">Paramètres</a>
             </div>
         </div>
-    </footer>
-</body>
-</html>
 
+    </footer>
+
+</body>
+
+</html>
