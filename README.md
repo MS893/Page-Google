@@ -32,11 +32,11 @@
 
 ## :dart: About
 
-Copie de la page de recherche Google
+Replication of Google's landing page
 
 ## :sparkles: Features
 
-- :heavy_check_mark: Ne fait rien, juste la recopie de la page Google
+- :heavy_check_mark: Does nothing, it's only a replication of the front-end
 
 ## :white_check_mark: Requirements
 
